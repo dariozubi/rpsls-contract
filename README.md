@@ -1,4 +1,8 @@
-# Compiling the contract
+# Rock, Paper, Scissors, Lizard, Spock for Ethereum
+
+This project sets the ground for a local development of a RPSLS contract for Ethereum. The contract is just an updated version of the [contract made by Clément Lesaege](https://github.com/clesaege/RPS/blob/master/RPS.sol) with some extra messages for error handling.
+
+## Compiling the contract
 
 To compile the contract you have to run:
 
@@ -6,7 +10,7 @@ To compile the contract you have to run:
 npx hardhat compile
 ```
 
-# Using the console
+## Using the console
 
 To test the contract with an interactive console you can use Hardhat's console. To do it, first run the node in one terminal:
 
